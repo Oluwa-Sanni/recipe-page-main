@@ -55,6 +55,7 @@ section{
     padding: 40px;
     max-width: 100vh;
     display: grid;
+    height: auto;
 }
 
 .Preparation{
@@ -75,9 +76,15 @@ h1{
     color: hsl(24, 5%, 18%);
     font-family: var(--font-family-Young);
     font-weight: var(--font-wght-400);
+    margin: 15px;
+    margin-left: 0%;
 }
 p{
     font-size: var(--Font-size-paragraph);
+    font-family: var(--font-family-Outfit);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 0%;
 }
 h2{
     color: var(--Nutmeg);
@@ -102,6 +109,10 @@ ol li{
 }
 .Nutrition{
     margin-top: 15px;
+}
+.Nutrition table tbody{
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 table{
     width: 100%;
