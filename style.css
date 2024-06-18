@@ -84,24 +84,34 @@ h2{
     font-weight: var(--font-wght-400);
     font-family: var(--font-family-Young);
 }
-ul{
-    margin-left: 30px;
-    display: grid;
+ul li{
+    margin: 15px;
+    margin-left: 30px;    
 }
-ol{
+ol li{
+    margin: 15px;
     margin-left: 30px;
 }
 .Ingredients{
-    border-bottom: 2px solid hsl(30, 18%, 87%); 
+    border-bottom: 2px solid hsl(30, 18%, 87%);
+    margin-top: 15px; 
 }
 .Instructions{
     border-bottom: 2px solid hsl(30, 18%, 87%);
+    margin-top: 15px;
+}
+.Nutrition{
+    margin-top: 15px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
 }
 table tbody tr td{
     padding-left: 40px;
-    border-collapse: collapse;
+    margin-bottom:  10px;
 }
-table tbody .list{
+table tbody tr.list{
     border-bottom: 2px solid hsl(30, 18%, 87%);
 }
 .unit{
